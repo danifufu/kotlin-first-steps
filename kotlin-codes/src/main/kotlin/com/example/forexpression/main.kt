@@ -22,4 +22,10 @@ fun main() {
         println("Counter j = $j")
     }
 
+    // another example with FOR
+    val numArray = intArrayOf(10,20,30,40,50)
+    for (i in numArray.indices) {
+        println("At index $i is ${numArray[i]}")
+    }
+
 }
